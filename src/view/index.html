@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+		<!--<script src="js/angular.js"></script>-->
+		<!--<script src="js/angular-route.js"></script>-->
+    <link href="css/mui.min.css" rel="stylesheet"/>
+		<link rel="stylesheet" href="css/wow.css"/>
+		<script src="js/mui.js"></script>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+</head>
+<body>
+	<header class="mui-bar mui-bar-nav">
+		<h1 class="mui-title">魔兽世界</h1>
+		<a class="mui-icon mui-icon-bars mui-pull-right"></a>
+	</header>
+	<div class="mui-content" id="indexMain">
+		<div id="firstIndex" class="mui-control-content mui-active">
+			<nav class="mui-slider advert">
+				<div class="mui-slider-group mui-slider-loop">
+					<div class="mui-slider-item mui-slider-item-duplicate">
+						<a href="#">
+							<img src="img/K2B.jpg" alt=""/>
+						</a>
+					</div>
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="img/70.jpg" alt=""/>
+							<p class="mui-slider-title">燃烧军团的卧底，玩家组团大战糯米</p>
+						</a>
+					</div>
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="img/AB5.jpg" alt=""/>
+							<p class="mui-slider-title">KLZ开发，玩家集合攻破</p>
+						</a>
+					</div>
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="img/B2Q1BI4I03MQ1476685505910.jpg" alt=""/>
+							<p class="mui-slider-title">随机团队新副本开放</p>
+						</a>
+					</div>
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="img/K2B.jpg" alt=""/>
+							<p class="mui-slider-title">燃烧军团的再临</p>
+						</a>
+					</div>
+					<div class="mui-slider-item mui-slider-item-duplicate">
+						<a href="#">
+							<img src="img/70.jpg" alt=""/>
+						</a>
+					</div>
+				</div>
+			</nav>
+			<article class="mui-content" id="index_mainCont">
+				<div class="mui-row">
+					<div class="mui-col-xs-3">
+						<a href="#">
+							<img src="img/icon/11.png" alt="">
+							<span>新手上路</span>
+						</a>
+					</div>
+					<div class="mui-col-xs-3">
+						<a href="showGift.html">
+							<img src="img/icon/11.png" alt="">
+							<span>天赋模拟器</span>
+						</a>
+					</div>
+					<div class="mui-col-xs-3">
+						<a href="#">
+							<img src="img/icon/11.png" alt="">
+							<span>剧情故事</span>
+						</a>
+					</div>
+					<div class="mui-col-xs-3">
+						<a href="#">
+							<img src="img/icon/11.png" alt="">
+							<span>进入论坛</span>
+						</a>
+					</div>
+				</div>
+			</article>
+			<section>
+				<div class="mui-content">
+					<div id="mainSlider" class="mui-slider">
+						<div id="sliderSegmentedControl" class="mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
+							<a class="mui-control-item" href="#zuixindongtai">
+								最近动态
+							</a>
+							<a class="mui-control-item" href="#juntuanzailin">
+								军团再临
+							</a>
+							<a class="mui-control-item" href="#lantiebowen">
+								蓝贴博文
+							</a>
+						</div>
+						<div id="sliderProgressBar" class="mui-slider-progress-bar mui-col-xs-4"></div>
+						<div class="mui-slider-group" id="mainIndex">
+							<div id="zuixindongtai" class="mui-slider-item mui-control-content mui-active">
+								<div id="scroll1" class="mui-scroll-wrapper">
+									<div class="mui-scroll">
+										<ul class="mui-table-view">
+											<li class="mui-table-view-cell mui-media">
+												<a class="mainContIn">
+													<img src="img/70.jpg" alt="" class="mui-media-object mui-pull-left"/>
+													<div class="mui-media-body">
+														最新动态
+														<p>小号升装备更快！7.2版本装备等级一览</p>
+													</div>
+												</a>
+											</li>
+											<li class="mui-table-view-cell mui-media">
+												<a class="mainContIn">
+													<img src="img/AB5.jpg" alt="" class="mui-media-object mui-pull-left"/>
+													<div class="mui-media-body">
+														最新动态
+														<p>7.2随从提升到900级 大量旧版物资作废</p>
+													</div>
+												</a>
+											</li>
+											<li class="mui-table-view-cell mui-media">
+												<a class="mainContIn">
+													<img src="img/AB5.jpg" alt="" class="mui-media-object mui-pull-left"/>
+													<div class="mui-media-body">
+														最新动态
+														<p>7.2随从提升到900级 大量旧版物资作废</p>
+													</div>
+												</a>
+											</li>
+											<li class="mui-table-view-cell mui-media">
+												<a class="mainContIn">
+													<img src="img/K2B.jpg" alt="" class="mui-media-object mui-pull-left"/>
+													<div class="mui-media-body">
+														最新动态
+														<p>7.1.5变速节拍器测评 暗牧可拿来当常驻</p>
+													</div>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div id="juntuanzailin" class="mui-slider-item mui-control-content">
+								<div id="scroll2" class="mui-scroll-wrapper">
+									<div class="mui-scroll">
+										<div class="mui-loading">
+											<div class="mui-spinner">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div id="lantiebowen" class="mui-slider-item mui-control-content">
+								<div id="scroll3" class="mui-scroll-wrapper">
+									<div class="mui-scroll">
+										<div class="mui-loading">
+											<div class="mui-spinner">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--<div ng-view>-->
+				<!--</div>-->
+			</section>
+		</div>
+		<div id="secIndex" class="mui-control-content">
+			<ul class="mui-table-view mui-table-view-striped mui-table-view-condensed">
+				<li class="mui-table-view-cell">
+					<div class="mui-table">
+						<div class="mui-table-cell mui-col-xs-12">
+							<h4>魔兽世界军团再临现已上线，请一起加入艾泽拉斯的战斗吧</h4>
+							<h5>
+								系统消息
+							</h5>
+							<p>刚刚</p>
+						</div>
+					</div>
+				</li>
+				<li class="mui-table-view-cell">
+					<div class="mui-table">
+						<div class="mui-table-cell mui-col-xs-12">
+							<h4>魔兽世界军团再临现已上线，请一起加入艾泽拉斯的战斗吧</h4>
+							<h5>
+								系统消息
+							</h5>
+							<p>1分钟前</p>
+						</div>
+					</div>
+				</li>
+				<li class="mui-table-view-cell">
+					<div class="mui-table">
+						<div class="mui-table-cell mui-col-xs-12">
+							<h4>魔兽世界军团再临现已上线，请一起加入艾泽拉斯的战斗吧</h4>
+							<h5>
+								系统消息
+							</h5>
+							<p>1分钟前</p>
+						</div>
+					</div>
+				</li>
+				<li class="mui-table-view-cell">
+					<div class="mui-table">
+						<div class="mui-table-cell mui-col-xs-12">
+							<h4>魔兽世界军团再临现已上线，请一起加入艾泽拉斯的战斗吧</h4>
+							<h5>
+								系统消息
+							</h5>
+							<p>2分钟前</p>
+						</div>
+					</div>
+				</li>
+				<li class="mui-table-view-cell">
+					<div class="mui-table">
+						<div class="mui-table-cell mui-col-xs-12">
+							<h4>魔兽世界军团再临现已上线，请一起加入艾泽拉斯的战斗吧</h4>
+							<h5>
+								系统消息
+							</h5>
+							<p>3分钟前</p>
+						</div>
+					</div>
+				</li>
+				<li class="mui-table-view-cell">
+					<div class="mui-table">
+						<div class="mui-table-cell mui-col-xs-12">
+							<h4>魔兽世界军团再临现已上线，请一起加入艾泽拉斯的战斗吧</h4>
+							<h5>系统消息
+							</h5>
+							<p>3分钟前</p>
+						</div>
+					</div>
+				</li>
+				<li class="mui-table-view-cell">
+					<div class="mui-table">
+						<div class="mui-table-cell mui-col-xs-12">
+							<h4>网友评论仅供表达个人看法，并不表达多玩同意其观点或证实其描述</h4>
+							<h5>
+								系统消息
+							</h5>
+							<p>5分钟前</p>
+						</div>
+					</div>
+				</li>
+				<li class="mui-table-view-cell">
+					<div class="mui-table">
+						<div class="mui-table-cell mui-col-xs-12">
+							<h4>网友评论仅供表达个人看法，并不表达多玩同意其观点或证实其描述</h4>
+							<h5>
+								系统消息
+							</h5>
+							<p>2分钟前</p>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div id="contactIndex" class="mui-control-content">
+			<ul class="mui-table-view">
+				<li class="mui-table-view-cell mui-media">
+					<a>
+						<img src="img/perImg/1.png" class="mui-media-object mui-pull-left"/>
+						<div class="mui-media-body">
+							<p class="contactName">
+								胡应征
+							</p>
+						</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media">
+					<a>
+						<img src="img/perImg/2.png" class="mui-media-object mui-pull-left"/>
+						<div class="mui-media-body">
+							<p class="contactName">
+								劳司机
+							</p>
+						</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media">
+					<a>
+						<img src="img/perImg/3.png" class="mui-media-object mui-pull-left"/>
+						<div class="mui-media-body">
+							<p class="contactName">
+								落叶飘香
+							</p>
+						</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media">
+					<a>
+						<img src="img/perImg/4.png" class="mui-media-object mui-pull-left"/>
+						<div class="mui-media-body">
+							<p class="contactName">
+								摩天轮
+							</p>
+						</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media">
+					<a>
+						<img src="img/perImg/5.png" class="mui-media-object mui-pull-left"/>
+						<div class="mui-media-body">
+							<p class="contactName">
+								木木
+							</p>
+						</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media">
+					<a>
+						<img src="img/perImg/6.png" class="mui-media-object mui-pull-left"/>
+						<div class="mui-media-body">
+							<p class="contactName">
+								王涛
+							</p>
+						</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media">
+					<a>
+						<img src="img/perImg/7.png" class="mui-media-object mui-pull-left"/>
+						<div class="mui-media-body">
+							<p class="contactName">
+								翁老板
+							</p>
+						</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media">
+					<a>
+						<img src="img/perImg/8.png" class="mui-media-object mui-pull-left"/>
+						<div class="mui-media-body">
+							<p class="contactName">
+								黄老板
+							</p>
+						</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media">
+					<a>
+						<img src="img/perImg/9.png" class="mui-media-object mui-pull-left"/>
+						<div class="mui-media-body">
+							<p class="contactName">
+								朱工
+							</p>
+						</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media">
+					<a>
+						<img src="img/perImg/10.png" class="mui-media-object mui-pull-left"/>
+						<div class="mui-media-body">
+							<p class="contactName">
+								Json
+							</p>
+						</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media">
+					<a>
+						<img src="img/perImg/11.png" class="mui-media-object mui-pull-left"/>
+						<div class="mui-media-body">
+							<p class="contactName">
+								钟林涛
+							</p>
+						</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media">
+					<a>
+						<img src="img/perImg/12.png" class="mui-media-object mui-pull-left"/>
+						<div class="mui-media-body">
+							<p class="contactName">
+								真系估唔到吖
+							</p>
+						</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media">
+					<a>
+						<img src="img/perImg/13.png" class="mui-media-object mui-pull-left"/>
+						<div class="mui-media-body">
+							<p class="contactName">
+								半夏
+							</p>
+						</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media">
+					<a>
+						<img src="img/perImg/14.png" class="mui-media-object mui-pull-left"/>
+						<div class="mui-media-body">
+							<p class="contactName">
+								包司机
+							</p>
+						</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media">
+					<a>
+						<img src="img/perImg/15.png" class="mui-media-object mui-pull-left"/>
+						<div class="mui-media-body">
+							<p class="contactName">
+								HQQ
+							</p>
+						</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media">
+					<a>
+						<img src="img/perImg/16.png" class="mui-media-object mui-pull-left"/>
+						<div class="mui-media-body">
+							<p class="contactName">
+								玄炜
+							</p>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div id="gearIndex" class="mui-control-content">
+			<ul class="mui-table-view mui-table-view-chevron">
+				<li class="mui-table-view-cell mui-media">
+					<a class="mui-navigate-right">
+						<img src="img/perImg/1.png" class="mui-media-object mui-pull-left"/>
+						<div class="mui-media-body">
+							胡应征
+							<p class="mui-ellipsis">账号：huyingzheng</p>
+						</div>
+					</a>
+				</li>
+			</ul>
+			<ul class="mui-table-view">
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right">
+						<span class="mui-icon mui-icon-image"></span>
+						相册
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right">
+						<span class="mui-icon mui-icon-star"></span>
+						收藏
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right">
+						<span class="mui-icon mui-icon-checkbox"></span>
+						钱包
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right">
+						<span class="mui-icon mui-icon-email-filled"></span>
+						卡包
+					</a>
+				</li>
+			</ul>
+			<ul class="mui-table-view">
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right">
+						<span class="mui-icon mui-icon-spinner"></span>
+						表情
+					</a>
+				</li>
+			</ul>
+			<ul class="mui-table-view">
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right">
+						<span class="mui-icon mui-icon-gear"></span>
+						设置
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<footer id="indexFoot" class="mui-bar mui-bar-tab">
+		<a class="mui-tab-item mui-active" href="#firstIndex" id="openIndex">
+			<span class="mui-icon mui-icon-home"></span>
+			<span class="mui-tab-label">首页</span>
+		</a>
+		<a class="mui-tab-item" href="#secIndex" id="openInfo">
+			<span class="mui-icon mui-icon-email">
+				<!--<span class="mui-badge"></span>-->
+			</span>
+			<span class="mui-tab-label">消息</span>
+		</a>
+		<a class="mui-tab-item" href="#contactIndex" id="openContact">
+			<span class="mui-icon mui-icon-contact"></span>
+			<span class="mui-tab-label">通讯录</span>
+		</a>
+		<a class="mui-tab-item" href="#gearIndex" id="openGear">
+			<span class="mui-icon mui-icon-gear"></span>
+			<span class="mui-tab-label">设置</span>
+		</a>
+	</footer>
+	<script src="js/wow.js"></script>
+	<script>
+		var gallery = mui('.mui-slider.advert');
+		gallery.slider({
+			interval:2000//自动轮播周期，若为0则不自动播放，默认为0；
+		});
+	</script>
+</body>
+</html>

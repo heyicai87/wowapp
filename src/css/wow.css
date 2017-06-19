@@ -1,0 +1,142 @@
+/*nav.mui-slider{*/
+  /*margin-top: 44px;*/
+/*}*/
+#indexMain{
+  margin-bottom: 45px;
+}
+#index_mainCont{
+  padding-top: 0;
+}
+#index_mainCont a>img{
+  width: 100%;
+}
+#index_mainCont a{
+  display: inline-block;
+  text-align: center;
+}
+#index_mainCont a>span{
+  position: relative;
+  bottom: 20px;
+  font-size: 0.8rem;
+}
+.mui-toggle{
+  line-height: 38px;
+  display: table-cell;
+  overflow: hidden;
+  text-align: center;
+  border-left: 1px solid #007aff;
+}
+section div.mui-segmented-control:first-child{
+  border-left: 0;
+}
+.mui-toggle.active{
+  background-color: #007aff;
+  color: #ffffff;
+  font-weight: 400;
+}
+.mui-control-content{
+  min-height: 315px;
+  background-color: #ffffff;
+}
+.contactName,.mui-media-body{
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 4px;
+  margin: auto 0;
+  color: #000000;
+}
+#gearIndex{
+  background-color: #EFEFF4;
+}
+#gearIndex>ul:first-child{
+  margin: 5px 0 10px 0;
+  padding: 10px 0;
+}
+#gearIndex>ul:nth-child(3){
+  margin: 15px 0 15px 0;
+}
+.title{
+  margin: 35px 15px 10px;
+}
+.title+.content{
+  margin: 10px 15px 35px;
+  color: #bbbbbb;
+  text-indent: 1em;
+  font-size: 14px;
+  line-height: 24px;
+}
+#giftCont{
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:top center;
+  min-height: 1740px;
+}
+#giftCont>div.mui-row{
+  position: relative;
+  top: 700px;
+}
+#giftCont>div.mui-row>div.mui-col-xs-8{
+  height: 500px;
+  background-color: #171717;
+}
+#giftCont>div.mui-row>div.mui-col-xs-8>h1.mui-title{
+  color: #fafafa;
+  text-indent: 1em;
+  font-size: 20px;
+  margin: 30px 0;
+}
+.dower-item{
+  width: 90%;
+  margin-top: 100px;
+}
+.bc{
+  margin-left: auto;
+  margin-right: auto;
+}
+#giftCont>div.mui-row>div.mui-col-xs-8>ul>li{
+  float: left;
+  position: relative;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  width: 105px;
+  height: 105px;
+  text-align: center;
+}
+#giftCont>div.mui-row>div.mui-col-xs-8>ul>li>a{
+  display: inline-block;
+  width: 105px;
+  height: 105px;
+  background-image: url("../img/professorImg/icon-dower.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#giftCont>div.mui-row>div.mui-col-xs-8>ul>li>a>img{
+  width: 77px;
+  margin-top: 14px;
+}
+#showDk,#showLr,#showFs,#showWs,#showQs,#showMs,#showDz,#showSm,#showSs,#showZs{
+  /*position: absolute;*/
+  top: -180px !important;
+  left: -90px !important;
+}
+#showXd{
+  top: -230px !important;
+  left: -90px !important;
+}
+#showDh{
+  top: -110px !important;
+  left: -90px !important;
+}
+#giftCont>div>div.mui-col-xs-8>ul>li>div>ul{
+  border-color: #484848 ;
+}
+#giftCont>div>div.mui-col-xs-8>ul>li>div>ul>li{
+  background-color: #282828 !important;
+}
+#showXd>ul{
+  border-bottom: 1px solid #f7f7f7;
+}
